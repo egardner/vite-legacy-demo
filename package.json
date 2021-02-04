@@ -2,9 +2,9 @@
   "name": "vite-legacy-demo",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "dev": "npx vite",
+    "build": "npx vite build",
+    "serve": "npx vite preview"
   },
   "dependencies": {
     "sd-components": "github:egardner/sd-components",
@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-legacy": "^1.2.3",
+    "vite": "^2.0.0-beta.64",
     "vite-plugin-vue2": "^1.2.0"
   }
 }
